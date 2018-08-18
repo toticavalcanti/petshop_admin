@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: petadmin_development
+  database: petshop_admin_development
 
 test:
   <<: *default
-  database: petadmin_exchance_test
+  database: petshop_admin_exchance_test
 
 production:
   <<: *default
-  database: petadmin_exchance_production
+  database: petshop_admin_exchance_production
