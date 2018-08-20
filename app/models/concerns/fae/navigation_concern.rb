@@ -29,6 +29,7 @@ module Fae
         item('Products', path: admin_products_path),
         item('Services', path: admin_services_path),
         item('Discounts', path: admin_discounts_path),
+        item('Campaigns', path: admin_campaigns_path),
         # scaffold inject marker
       ]
     end
