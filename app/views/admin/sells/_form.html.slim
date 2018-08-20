@@ -1,11 +1,11 @@
 = simple_form_for(['admin', @item]) do |f|
-  == render 'fae/shared/form_header', header: @klass_name
+  header.content-header.js-content-header
+    == render 'fae/shared/form_header', header: @klass_name
+  == render 'fae/shared/errors'
 
   main.content
-    = fae_input f, :total
-    = fae_input f, :observations
-    = fae_input f, :status
-    = fae_input f, :date
-
     = fae_association f, :discount
     = fae_association f, :client
+
+    = fae_input f, :observations
+    = fae_pulldown f, :status, size: 'long', collection: Sell.statuses.to_a, selected: Sell.statuses[@item.status]
