@@ -38,7 +38,7 @@ services:
     volumes:
       - '.:/petshop_admin'
     volumes_from:
-    - box
+      - box
 
   box:
     image: busybox
