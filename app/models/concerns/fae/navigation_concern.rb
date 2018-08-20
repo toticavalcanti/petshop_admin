@@ -25,6 +25,7 @@ module Fae
 
     def structure
       [
+        item('Clients', path: admin_clients_path),
         # scaffold inject marker
       ]
     end
