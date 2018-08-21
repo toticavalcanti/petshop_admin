@@ -1,4 +1,4 @@
-class Sell &lt; ApplicationRecord
+class Sell < ApplicationRecord
   include Fae::BaseModelConcern
   enum status: { finalizada: 0, cancelada: 1 }
   validates :client, presence: true
