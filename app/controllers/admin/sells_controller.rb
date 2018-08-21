@@ -1,5 +1,5 @@
 module Admin
-  class SellsController &lt; Fae::BaseController
+  class SellsController < Fae::BaseController
     before_action :adjust_enum, only: [:create, :update]
 
     def adjust_enum
