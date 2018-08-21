@@ -1,4 +1,4 @@
-class CampaingJob &lt; ApplicationJob
+class CampaingJob < ApplicationJob
   queue_as :emails
  
   def perform(client, title, body)
