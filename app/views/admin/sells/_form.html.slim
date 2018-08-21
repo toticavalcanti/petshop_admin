@@ -6,6 +6,7 @@
   main.content
     = fae_association f, :discount
     = fae_association f, :client
+    = fae_datepicker f,  :date
 
     = fae_input f, :observations
     = fae_pulldown f, :status, size: 'long', collection: Sell.statuses.to_a, selected: Sell.statuses[@item.status]
