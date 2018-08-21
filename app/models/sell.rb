@@ -6,11 +6,11 @@ class Sell < ApplicationRecord
   belongs_to :discount
   belongs_to :client
  
-  has_many :sell_products
-  has_many :products, through: :sell_products, dependent: :destroy
+  has_many :sell_products, dependent: :destroy
+  has_many :products, through: :sell_products
  
-  has_many :sell_services
-  has_many :services, through: :sell_services, dependent: :destroy
+  has_many :sell_services, dependent: :destroy
+  has_many :services, through: :sell_services
  
   before_save :set_total
  
