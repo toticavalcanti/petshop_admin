@@ -4,7 +4,7 @@
   main.content
     = fae_input f, :title
     = fae_input f, :description
-    = fae_input f, :price
+    = fae_prefix f, :price, prefix: '$', placeholder: '50.00'
     = fae_input f, :observations
 
     = fae_association f, :supplier
