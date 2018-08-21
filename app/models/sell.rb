@@ -33,7 +33,7 @@ class Sell < ApplicationRecord
       total = total - self.discount.value
     end
  
-    total = (total &gt;= 0)? total : 0
+    total = (total >= 0)? total : 0
     self.total = total
   end
 end
