@@ -33,7 +33,7 @@ git clone git@github.com:toticavalcanti/petshop_admin.git
 Have Docker installed in your machine
 
 ```
-* [Docker](https://docs.docker.com/install/) - See all informations need to install Docker in your machine
+[Docker](https://docs.docker.com/install/) - See all informations need to install Docker in your machine
 ```
 
 ### Installing
