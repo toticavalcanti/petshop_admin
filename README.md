@@ -45,7 +45,7 @@ To install the gems files run:
 docker-compose run --rm app bundle install
 ```
 
-* Database creation
+* Database creation and make migrations
 
 ```
 docker-compose run --rm app bundle exec rake db:create db:migrate
