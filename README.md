@@ -3,7 +3,7 @@
 
 ### A Admin System
 
-A system admin to manage many types of business, in this case, was used a Pet Shop Admin like example.
+A admin system to manage many types of business, in this case, was used a Pet Shop Admin like example.
 
 ## Project Stack
 
