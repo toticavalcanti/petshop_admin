@@ -1,4 +1,4 @@
-class Campaign &lt; ApplicationRecord
+class Campaign < ApplicationRecord
   include Fae::BaseModelConcern
  
   validates :title, presence: true
