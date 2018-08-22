@@ -38,15 +38,14 @@ git clone git@github.com:toticavalcanti/petshop_admin.git
 ```
 ### Installing PET SHOP ADMIN
 
-Run:
+* Gems install
 
+Run: 
 ```
 docker-compose run --rm app bundle install
 ```
 
-The command above install all Gem of the Gemfile.</br>
-Now let's create the database and make migration.</br>
-To do this, run:
+* Database creation
 
 ```
 docker-compose run --rm app bundle exec rake db:create db:migrate
