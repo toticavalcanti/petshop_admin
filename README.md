@@ -7,9 +7,15 @@ A system admin to manage many types of business, in this case, was used a Pet Sh
 
 ## Project Stack
 
-* Bullet list
-    * Nested bullet
-        * Sub-nested bullet etc
+* Repository
+    * Github
+
+* Development
+    * Ruby On Rails
+        * Libraries
+            * Sidekiq
+            * Fae
+
 * Bullet list item 2
 
 * Ruby version
