@@ -59,5 +59,5 @@ docker-compose build
 docker-compose up
 ```
 * Now, create your first user.</br>
-To do it access:
+To do it access:</br>
 [http://localhost:3000/admin/first_user](http://localhost:3000/admin/first_user/)
