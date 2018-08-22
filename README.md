@@ -22,6 +22,38 @@ A system admin to manage many types of business, in this case, was used a Pet Sh
     * Docker
     * Docker-compose
 
+## Getting Started
+
+* To see the application working in your machine, clone this project with:
+```
+git clone git@github.com:toticavalcanti/petshop_admin.git
+```
+### Prerequisites
+
+Have Docker installed in your machine
+
+```
+* [Docker](https://docs.docker.com/install/) - See all informations need to install Docker in your machine
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
 * Ruby version
 
 * System dependencies
