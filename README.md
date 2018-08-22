@@ -22,13 +22,7 @@ A system admin to manage many types of business, in this case, was used a Pet Sh
     * Docker
     * Docker-compose
 
-## Getting Started
-
-* To see the application working in your machine, clone this project with:
-```
-git clone git@github.com:toticavalcanti/petshop_admin.git
-```
-### Prerequisites
+## Prerequisites
 
 Have Docker installed in your machine
 
@@ -36,20 +30,26 @@ Have Docker installed in your machine
 [See how to install Docker here](https://docs.docker.com/install/)
 
 
-### Installing
+## Getting Started
 
-A step by step series of examples that tell you how to get a development env running
+* To see the application working in your machine, clone this project with:
+```
+git clone git@github.com:toticavalcanti/petshop_admin.git
+```
+### Installing PET SHOP ADMIN
 
-Say what the step will be
+Run:
 
 ```
-Give the example
+docker-compose run --rm app bundle install
 ```
 
-And repeat
+The command above install all Gem of the Gemfile.
+Now let's create the database and make migration. 
+To do this, run:
 
 ```
-until finished
+docker-compose run --rm app bundle exec rake db:create db:migrate
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
