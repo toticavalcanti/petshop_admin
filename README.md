@@ -1,9 +1,9 @@
 # PET SHOP ADMIN
 
 
-### A Admin System
+### A administration system
 
-A admin system to manage many types of business, in this case, was used a Pet Shop Admin like example.
+A administration system to manage many types of business, in this case, was used a Pet Shop Admin like example.
 
 ## Project Stack
 
