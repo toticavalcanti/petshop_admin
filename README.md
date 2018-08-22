@@ -7,10 +7,10 @@ A system admin to manage many types of business, in this case, was used a Pet Sh
 
 ## Project Stack
 
-Markup : *Repositório
-              * Github
+*Repositório
+    * Github
 
-         *Desenvolvimento
+*Desenvolvimento
 
 * Ruby version
 
