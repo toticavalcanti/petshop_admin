@@ -50,23 +50,14 @@ docker-compose run --rm app bundle install
 ```
 docker-compose run --rm app bundle exec rake db:create db:migrate
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Build the application
+```
+docker-compose build
+```
+* Up the application
+```
+docker-compose up
+```
+* Now, create your first user.
+To do it access:
+[http://localhost:3000/admin/first_user](http://localhost:3000/admin/first_user/)
