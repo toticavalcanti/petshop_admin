@@ -32,7 +32,7 @@ Have Docker installed in your machine
 
 ## Getting Started
 
-* To see the application working in your machine, clone this project with:
+* To see this application working in your machine, clone this project with:
 ```
 git clone git@github.com:toticavalcanti/petshop_admin.git
 ```
