@@ -7,10 +7,10 @@ A system admin to manage many types of business, in this case, was used a Pet Sh
 
 ## Project Stack
 
-*Repositório
-    * Github
-
-*Desenvolvimento
+* Bullet list
+    * Nested bullet
+        * Sub-nested bullet etc
+* Bullet list item 2
 
 * Ruby version
 
