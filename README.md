@@ -40,7 +40,7 @@ git clone git@github.com:toticavalcanti/petshop_admin.git
 
 * Gems install
 
-Run: 
+To install the gems files run: 
 ```
 docker-compose run --rm app bundle install
 ```
