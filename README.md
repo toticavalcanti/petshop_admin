@@ -15,6 +15,12 @@ A system admin to manage many types of business, in this case, was used a Pet Sh
         * Libraries
             * Sidekiq
             * Fae
+    * Redis
+    * PostgreSQL
+    * Mailcatcher
+* Environment
+    * Docker
+    * Docker-compose
 
 * Bullet list item 2
 
