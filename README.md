@@ -44,7 +44,7 @@ Run:
 docker-compose run --rm app bundle install
 ```
 
-The command above install all Gem of the Gemfile.
+The command above install all Gem of the Gemfile.\n
 Now let's create the database and make migration. 
 To do this, run:
 
