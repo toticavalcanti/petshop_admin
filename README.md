@@ -5,7 +5,12 @@
 
 A system admin to manage many types of business, in this case, was used a Pet Shop Admin like example.
 
-## Installation
+## Project Stack
+
+Markup : *Repositório
+              * Github
+
+         *Desenvolvimento
 
 * Ruby version
 
